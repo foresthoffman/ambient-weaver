@@ -1,0 +1,253 @@
+body {
+	background-color: #333;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+input {
+	color: black;
+}
+
+.item-index {
+	color: #777;
+}
+
+.ctrl-panel {
+	width: 100%;
+	margin: 25px auto 75px;
+}
+
+.ctrl-column-container {
+	border: 2px solid #5cb85c;
+}
+
+.container-title {
+	border-bottom: 1px solid #5cb85c;
+}
+
+.ctrl-button {
+	color: white;
+}
+
+.ctrl-button.ctrl-button-toggled {
+	color: #5cb85c;
+}
+
+.progress, .progress-bar {
+	height: 30px;
+}
+
+.progress-bar-dark {
+	background-color: #222;
+	cursor: pointer;
+}
+
+.glyphicon {
+	font-size: 25px;
+}
+
+.hidden {
+	display: none;
+}
+
+.footer-runner {
+	height: 50px;
+	width: 100%;
+	background-color: #222;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-runner-info {
+	padding-top: 12px;
+}
+
+/**
+ * Misc. Track List Structure
+ */
+
+.track-directory {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.track-directory-input {
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	-webkit-appearance: none;
+	outline: none;
+	background-color: #222;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	height: 28px;
+	flex: 2 0 0;
+}
+
+.track-directory-btn {
+	padding: 3px 6px;
+	margin-bottom: 10px;
+	height: 28px;
+}
+
+.track-directory-btn .glyphicon {
+	font-size: 1.5rem;
+}
+
+.track-directory-btn .glyphicon-folder-open {
+	margin-right: 10px;
+}
+
+/**
+ * Audio Player Structure
+ */
+
+.ctrl-list-item .btn.ctrl-button-track-dropdown {
+	margin-top: 10px;
+	padding: 3px 6px;
+}
+
+.ctrl-list-item .dropdown .dropdown-menu {
+	margin-top: -1px;
+}
+
+.ctrl-list-item .dropup .dropdown-menu {
+	margin-bottom: -11px;
+}
+
+.ctrl-list-item .btn.ctrl-button-track-dropdown span {
+	font-size: 1.5rem;
+}
+
+.ctrl-list-item .btn.ctrl-button-track-dropdown span.caret {
+	margin-left: 10px;
+}
+
+.audio-player {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.audio-player > * {
+	margin: 4px 10px 0 0;
+}
+
+.audio-player > *:last-child {
+	margin: 0;
+}
+
+.volume-bar-wrapper {
+	display: flex;
+}
+
+.volume-bar-wrapper .ctrl-volume-button {
+	margin-right: 10px;
+}
+
+.volume-bar-wrapper .progress {
+	width: 50px;
+	margin: 0;
+}
+
+.progress-bar-wrapper {
+	flex: 2 0 0;
+}
+
+/**
+ * Playlist List Structure
+ */
+
+.playlist-title-wrap > * {
+	display: inline-block;
+}
+
+.playlist-title {
+	padding-left: 5px;
+	margin-left: 4px;
+	-webkit-appearance: none;
+	outline: none;
+	background-color: rgba( 0,0,0,0 );
+	color: white;
+	border: none;
+	width: auto;
+}
+
+.playlist-list-item {
+	padding: 5px;
+}
+
+.playlist-list-item:last-of-type {
+	margin-bottom: 20px;
+}
+
+.playlist-list-item > * {
+	display: inline-block;
+}
+
+.playlist-list div.btn {
+	margin-left: 10px;
+	padding: 3px 6px;
+}
+
+.playlist-list div.btn.playlist-btn-add {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+.playlist-list div.btn span {
+	font-size: 1.5rem;
+}
+
+.playlist-editing {
+	background-color: #222;
+}
+
+/**
+ * Playlist Editor Structure
+ */
+
+.playlist-editor div.btn {
+	margin-right: 10px;
+	padding: 3px 6px;
+}
+
+.playlist-editor .playlist-editor-btn-container div.btn:last-of-type {
+	margin-right: 0px;
+}
+
+.playlist-editor div.btn span {
+	font-size: 1.5rem;
+}
+
+.playlist-editor-track-list {
+	margin-top: 10px;
+}
+
+.playlist-editor-btn-remove-track {
+	margin-right: 10px;
+}
+
+.playlist-editor-title-input {
+	padding-left: 5px;
+	margin-bottom: 5px;
+	-webkit-appearance: none;
+	outline: none;
+	background-color: #222;
+	color: white;
+	border: none;
+	width: 100%;
+}
+
+.glyphicon.ctrl-master-play-button {
+	font-size: 4rem;
+}

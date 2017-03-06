@@ -1,0 +1,5 @@
+{
+	"name": "playlist",
+	"version": "0.0.1",
+	"main": "../../src/modules/playlist/playlist.js"
+}

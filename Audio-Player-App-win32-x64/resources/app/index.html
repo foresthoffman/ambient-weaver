@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Audio Player App</title>
+		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type='text/javascript'>
+			if ( 'object' === typeof module ) {
+				window.module = module;
+				module = undefined;
+			}
+			electron = require( 'electron' );
+		</script>
+		<script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script type='text/javascript' src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type='text/javascript' src="src/source.js"></script>
+		<script type='text/javascript'>
+			if ( window.module ) {
+				module = window.module;
+			}
+		</script>
+	</head>
+	<body>
+		<div class='ctrl-panel'>
+			<div class='ctrl-container container-fluid'>
+				<div class='ctrl-column-container col-md-3'>
+					<h1 class='container-title'>Tracks</h1>
+					<div id='ctrl-list-container'>
+						<!-- This is where the file list is dynamically generated.
+						e.g.
+
+						<div class='ctrl-list'>
+							<div class='ctrl-list-item'></div>
+							<div class='ctrl-list-item'></div>
+							<div class='ctrl-list-item'></div>
+						</div>
+
+						-->
+					</div>
+				</div>
+				<div class='ctrl-column-container col-md-3'>
+					<h1 class='container-title'>Playlists</h1>
+					<div id='playlist-list-container'>
+						<!-- This is where the playlist list is dynamically generated.
+						e.g.
+
+						<div class='playlist-list'>
+							<div class='playlist-list-item'></div>
+							<div class='playlist-list-item'></div>
+							<div class='playlist-list-item'></div>
+						</div>
+
+						-->
+					</div>
+				</div>
+				<div class='ctrl-column-container col-md-6'>
+					<div id='playlist-editor-container'>
+						<!-- This is where the playlist editor is dynamically generated.
+						e.g.
+
+						<div class='playlist-editor'>
+							<div class='playlist-editor-meta'></div>
+							<div class='playlist-editor-track-list'>
+								<div class='playlist-editor-track-item'></div>
+								<div class='playlist-editor-track-item'></div>
+								<div class='playlist-editor-track-item'></div>
+							</div>
+						</div>
+
+						-->
+						<!-- Placeholder content -->
+						<div class='playlist-editor'>
+							<div class='playlist-editor-meta'>
+								<h1 class='container-title'>No Playlist Selected</h1>
+							</div>
+							<div class='playlist-editor-track-list'>
+								Select a playlist to edit it!
+							</div>
+						</div>
+						<!-- #Placeholder content -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='footer-runner'>
+			<div class='footer-runner-info'>Copyright Forest Hoffman 2017</div>
+		</div>
+	</body>
+</html>

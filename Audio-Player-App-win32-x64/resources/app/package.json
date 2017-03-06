@@ -1,0 +1,29 @@
+{
+  "name": "Audio-Player-App",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "component": "file:src/modules/component",
+    "config": "file:src/modules/config",
+    "jquery": "^3.1.1",
+    "listen": "file:src/modules/listen",
+    "playlist": "file:src/modules/playlist",
+    "playlist_controller": "file:src/modules/playlist_controller",
+    "playlist_map": "file:src/modules/playlist_map",
+    "track": "file:src/modules/track",
+    "utils": "file:src/modules/utils",
+    "view": "file:src/modules/view"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha -R nyan || true",
+    "testSpec": "mocha -R spec || true",
+    "testWatch": "mocha -w -R nyan || true",
+    "start": "electron .",
+    "prod": "open ../Audio-Player-App-darwin-x64/Audio-Player-App.app/",
+    "build": "electron-packager . --ignore='(test|\\.afdesign|\\.iconset|\\.todo|data)' --version=1.4.13 --out=../distros --overwrite --icon=repeat-loop.icns"
+  }
+}
