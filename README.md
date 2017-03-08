@@ -1,9 +1,9 @@
-Audio-Player-App
+Ambient Weaver
 ================
 
 ### What?...Why?
 
-The Audio-Player-App is a desktop application, for 64-bit macOS 10.12.2 and Windows 10, designed to solve issues related to playing ambient noise tracks. Ambient tracks are best played in a loop, but doing so with an individual track can be troublesome. The not-so-subtle momentary breaks between iterations of a loop can easily break a listener's focus. Using ridiculously long tracks can make loop-breaks less frequent, but that doesn't fix the problem. The Audio-Player-App is built from the ground up with the idea that multiple tracks can be woven together to create a seamless listening experience.
+Ambient Weaver is a desktop application, for 64-bit macOS 10.12.2 and Windows 10, designed to solve issues related to playing ambient noise tracks. Ambient tracks are best played in a loop, but doing so with an individual track can be troublesome. The not-so-subtle momentary breaks between iterations of a loop can easily break a listener's focus. Using ridiculously long tracks can make loop-breaks less frequent, but that doesn't fix the problem. Ambient Weaver is built from the ground up with the idea that multiple tracks can be woven together to create a seamless listening experience.
 
 ### Features
 
