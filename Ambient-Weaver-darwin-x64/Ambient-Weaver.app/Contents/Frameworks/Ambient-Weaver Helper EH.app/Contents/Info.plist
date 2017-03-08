@@ -4,10 +4,14 @@
   <dict>
     <key>BuildMachineOSBuild</key>
     <string>15E65</string>
+    <key>CFBundleDisplayName</key>
+    <string>Ambient-Weaver Helper EH</string>
+    <key>CFBundleExecutable</key>
+    <string>Ambient-Weaver Helper EH</string>
     <key>CFBundleIdentifier</key>
-    <string>com.electron.audio-player-app.helper</string>
+    <string>com.electron.ambient-weaver.helper.EH</string>
     <key>CFBundleName</key>
-    <string>Audio-Player-App</string>
+    <string>Ambient-Weaver Helper EH</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>DTSDKBuild</key>
@@ -22,9 +26,5 @@
     <true/>
     <key>NSSupportsAutomaticGraphicsSwitching</key>
     <true/>
-    <key>CFBundleDisplayName</key>
-    <string>Audio-Player-App Helper</string>
-    <key>CFBundleExecutable</key>
-    <string>Audio-Player-App Helper</string>
   </dict>
 </plist>

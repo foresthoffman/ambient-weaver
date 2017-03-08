@@ -5,17 +5,17 @@
     <key>BuildMachineOSBuild</key>
     <string>15E65</string>
     <key>CFBundleDisplayName</key>
-    <string>Audio-Player-App</string>
+    <string>Ambient-Weaver</string>
     <key>CFBundleExecutable</key>
-    <string>Audio-Player-App</string>
+    <string>Ambient-Weaver</string>
     <key>CFBundleIconFile</key>
     <string>electron.icns</string>
     <key>CFBundleIdentifier</key>
-    <string>com.electron.audio-player-app</string>
+    <string>com.electron.ambient-weaver</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>Audio-Player-App</string>
+    <string>Ambient-Weaver</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
