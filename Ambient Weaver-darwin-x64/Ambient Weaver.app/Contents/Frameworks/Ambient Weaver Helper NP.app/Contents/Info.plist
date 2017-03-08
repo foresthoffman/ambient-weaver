@@ -5,13 +5,13 @@
     <key>BuildMachineOSBuild</key>
     <string>15E65</string>
     <key>CFBundleDisplayName</key>
-    <string>Ambient-Weaver Helper EH</string>
+    <string>Ambient Weaver Helper NP</string>
     <key>CFBundleExecutable</key>
-    <string>Ambient-Weaver Helper EH</string>
+    <string>Ambient Weaver Helper NP</string>
     <key>CFBundleIdentifier</key>
-    <string>com.electron.ambient-weaver.helper.EH</string>
+    <string>com.electron.ambient-weaver.helper.NP</string>
     <key>CFBundleName</key>
-    <string>Ambient-Weaver Helper EH</string>
+    <string>Ambient Weaver Helper NP</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>DTSDKBuild</key>

@@ -23,6 +23,6 @@
     "testSpec": "mocha -R spec || true",
     "testWatch": "mocha -w -R nyan || true",
     "start": "electron .",
-    "build": "electron-packager . --ignore='(test|\\.afdesign|\\.iconset|\\.todo|data)' --version=1.4.13 --out=../distros --overwrite --icon=ambient-weaver.icns"
+    "build": "electron-packager . 'Ambient Weaver' --ignore='(test|\\.afdesign|\\.iconset|\\.todo|data)' --version=1.4.13 --out=../distros --overwrite --icon=ambient-weaver.icns"
   }
 }

@@ -7,7 +7,7 @@
     <key>CFBundleIdentifier</key>
     <string>com.electron.ambient-weaver.helper</string>
     <key>CFBundleName</key>
-    <string>Ambient-Weaver</string>
+    <string>Ambient Weaver</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>DTSDKBuild</key>
@@ -23,8 +23,8 @@
     <key>NSSupportsAutomaticGraphicsSwitching</key>
     <true/>
     <key>CFBundleDisplayName</key>
-    <string>Ambient-Weaver Helper</string>
+    <string>Ambient Weaver Helper</string>
     <key>CFBundleExecutable</key>
-    <string>Ambient-Weaver Helper</string>
+    <string>Ambient Weaver Helper</string>
   </dict>
 </plist>
