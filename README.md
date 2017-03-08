@@ -27,3 +27,11 @@ The audio files that are provided in the `default/` folder within the apps' reso
 * [Strong wind in the forest](http://www.freesound.org/people/inchadney/sounds/105272/) by inchadney
 * [Rain late at night](http://www.freesound.org/people/Kyster/sounds/122117/) by Kyster
 * [Rainstorm](http://www.freesound.org/people/klangfabrik/sounds/194209/) by klangfabrik
+
+### Tech
+
+This native application was built using [Electron](https://github.com/electron/electron) from GitHub. In addition to [Bootstrap](http://getbootstrap.com/) and [jQuery](https://jquery.com/).
+
+### License
+
+[MIT](https://github.com/foresthoffman/ambient-weaver/blob/master/LICENSE.txt)
