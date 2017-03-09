@@ -27,8 +27,6 @@ function Playlist_Controller() {
 	// initializes the path to the tracks directory, which is used to populate the track list
 	this.tracks_dir = path.resolve( __dirname, '../../../default/' );
 
-	console.log( __dirname, this.tracks_dir );
-
 	// tracks directory watcher
 	this.track_watcher = {};
 }
