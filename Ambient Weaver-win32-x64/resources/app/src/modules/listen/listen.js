@@ -424,6 +424,7 @@ Listen.prototype.add_playlist_button_listener = function( event ) {
 
 	window.controller.add_playlist( title, null, function() {
 		view.update_playlist_list( window.controller.get_titles() );
+		view.update_file_list( window.controller.track_files, window.controller.tracks_dir );
 	});
 };
 
